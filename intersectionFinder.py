@@ -2,7 +2,7 @@ import arcpy
 import csv
 
 # Set up the workspace
-workspace = r"C:\Users\Oscar\Desktop\Austin\MyProject24\MyProject24.gdb"
+workspace = r"C:\Users\JohnnyAppleseed\Desktop\Austin\MyProject24\MyProject24.gdb"
 arcpy.env.workspace = workspace
 
 # Feature class names
@@ -10,7 +10,7 @@ points_fc = "fishnet_points"
 buffer3d_fc = "single_Buffer3D"
 
 # Output CSV file path
-output_csv_path = r"C:\Users\Oscar\Desktop\fishnet_points_with_altitude.csv"
+output_csv_path = r"C:\Users\JonnyAppleseed\Desktop\fishnet_points_with_altitude.csv"
 
 # Check if buffer3d dataset exists
 if not arcpy.Exists(buffer3d_fc):

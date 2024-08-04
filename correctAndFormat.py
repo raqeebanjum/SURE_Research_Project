@@ -3,10 +3,10 @@ import math
 from pyproj import Proj, transform
 
 # Input CSV file path with X, Y, and Altitude
-input_csv_path = r"C:\Users\Oscar\Desktop\fishnet_points_with_altitude.csv"
+input_csv_path = r"C:\Users\JohnnyAppleseed\Desktop\fishnet_points_with_altitude.csv"
 
 # Output file path for the converted data
-output_file_path = r"C:\Users\Oscar\Desktop\converted_fishnet_points.xml"
+output_file_path = r"C:\Users\JohnnyAppleseed\Desktop\converted_fishnet_points.xml"
 
 # Original coordinate system (assuming it is a projected coordinate system, for example, UTM Zone 15N)
 # Replace this with the appropriate EPSG code for your coordinate system
